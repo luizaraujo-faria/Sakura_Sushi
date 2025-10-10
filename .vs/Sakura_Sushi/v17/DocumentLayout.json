@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\2A-DS-PI\\Luiz e Thiago\\Projeto_DS_BD\\Sakura_Sushi\\Sakura_Sushi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{890068FB-B06F-6045-F032-E9AFE274CD98}|Sakura_Sushi.csproj|f:\\2a-ds-pi\\luiz e thiago\\projeto_ds_bd\\sakura_sushi\\sakura_sushi\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{890068FB-B06F-6045-F032-E9AFE274CD98}|Sakura_Sushi.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{890068FB-B06F-6045-F032-E9AFE274CD98}|Sakura_Sushi.csproj|f:\\2a-ds-pi\\luiz e thiago\\projeto_ds_bd\\sakura_sushi\\sakura_sushi\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{890068FB-B06F-6045-F032-E9AFE274CD98}|Sakura_Sushi.csproj|solutionrelative:views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "F:\\2A-DS-PI\\Luiz e Thiago\\Projeto_DS_BD\\Sakura_Sushi\\Sakura_Sushi\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "F:\\2A-DS-PI\\Luiz e Thiago\\Projeto_DS_BD\\Sakura_Sushi\\Sakura_Sushi\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-10T13:20:21.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "F:\\2A-DS-PI\\Luiz e Thiago\\Projeto_DS_BD\\Sakura_Sushi\\Sakura_Sushi\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "F:\\2A-DS-PI\\Luiz e Thiago\\Projeto_DS_BD\\Sakura_Sushi\\Sakura_Sushi\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-10T13:19:29.576Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

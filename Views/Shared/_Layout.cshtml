@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - SakuraSushi</title>
+    <script type="importmap"></script>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/SakuraSushi.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/Layout.css" />
+</head>
+<body>
+    <header class="layoutHeader">
+
+        <h1 class="headerTitle">SAKURA SUSHI - Home</h1>
+
+        <nav class="headerNavbar">
+            <ul>
+                <li><a href="">Início</a></li>
+                <li><a href="">Cardápio</a></li>
+                <li><a href="">Promoções</a></li>
+                <li><a href="">Reservas</a></li>
+                <li><a href="">Pedidos</a></li>
+            </ul>
+            <ul>
+                <li><a href="">Cadastrar</a></li>
+                <li><a href="">Entrar</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <main role="main" class=""">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="layoutFooter">
+
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
