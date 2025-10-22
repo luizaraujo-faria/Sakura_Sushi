@@ -1,11 +1,9 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace Sakura_Sushi.Models
+namespace Sakura_Sushi.Dto
 {
-    public class Cliente
+    public class CreateClienteDTO
     {
-
-        public int ID_Cliente { get; }
         
         [Display(Name = "Seu nome")]
         [StringLength(150, MinimumLength = 2)]
