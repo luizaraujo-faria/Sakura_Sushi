@@ -18,7 +18,7 @@ namespace Sakura_Sushi.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Signin()
         {
             return View();
         }

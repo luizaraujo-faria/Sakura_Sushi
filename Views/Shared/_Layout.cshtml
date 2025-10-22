@@ -5,15 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - SakuraSushi</title>
     <script type="importmap"></script>
+    <link rel="stylesheet" href="~/css/Layout.css" />
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/SakuraSushi.styles.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/css/Layout.css" />
+    @RenderSection("Styles", required: false)
 </head>
 <body>
     <header class="layoutHeader">
 
-        <h1 class="headerTitle">SAKURA SUSHI - Home</h1>
+        <h1 class="headerTitle">SAKURA SUSHI</h1>
 
         <nav class="headerNavbar">
             <ul>
@@ -25,12 +26,12 @@
             </ul>
             <ul>
                 <li><a href="">Cadastrar</a></li>
-                <li><a href="">Entrar</a></li>
+                <li><a asp-controller="Home" asp-action="Signin">Entrar</a></li>
             </ul>
         </nav>
     </header>
 
-    <div class="container">
+    <div class="container-full">
         <main role="main" class=""">
             @RenderBody()
         </main>
