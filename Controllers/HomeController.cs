@@ -1,4 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
+using MySql.Data.MySqlClient;
+using Sakura_Sushi.Dto;
 using Sakura_Sushi.Models;
 using System.Diagnostics;
 
@@ -18,10 +20,24 @@ namespace Sakura_Sushi.Controllers
             return View();
         }
 
-        public IActionResult Signin()
+        public IActionResult Signin(CreateClienteDTO request)
         {
             return View();
+
+            string? connectionString = seitt.GetConnectionString("DefaultConnection");
+            using var connection = new MySqlConnection(connectionString);
+            connection.Open();
+
+            string sql = "insert into tbCliente (Nome, Email, Senha, CPF, Telefone) values(@Nome, @Email, @Senha, @CPF, @Telefone);";
+
+            MySqlCommand command = new MySqlCommand(sql, connection);
+            command.Parameters.AddWithValue("@Nome", request.Nome);
+            command.Parameters.AddWithValue("@Nome", request.Email);
+            command.Parameters.AddWithValue("@Nome", request.Senha);
+            command.Parameters.AddWithValue("@Nome", request.CPF);
+            command.Parameters.AddWithValue("@Nome", request.Telefone);
         }
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
