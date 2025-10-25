@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Sakura_Sushi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0fa9bb8299ef208a6d7da6895b4c69aef4449dfe")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a30e3c8bd632978d2c836c90098585a61fc2fd39")]
 [assembly: System.Reflection.AssemblyProductAttribute("Sakura_Sushi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Sakura_Sushi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
