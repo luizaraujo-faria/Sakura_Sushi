@@ -1,6 +1,114 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\luizh\\OneDrive\\Área de Trabalho\\Projeto-ASP\\Sakura_Sushi\\wwwroot\\Images\\Logo Sakura Sushi.png",
+      "PackagePath": "staticwebassets\\Images\\Logo Sakura Sushi.png"
+    },
+    {
+      "Id": "C:\\Users\\luizh\\OneDrive\\Área de Trabalho\\Projeto-ASP\\Sakura_Sushi\\wwwroot\\Images\\apple-google.png",
+      "PackagePath": "staticwebassets\\Images\\apple-google.png"
+    },
+    {
+      "Id": "C:\\Users\\luizh\\OneDrive\\Área de Trabalho\\Projeto-ASP\\Sakura_Sushi\\wwwroot\\Images\\banner-2.webp",
+      "PackagePath": "staticwebassets\\Images\\banner-2.webp"
+    },
+    {
+      "Id": "C:\\Users\\luizh\\OneDrive\\Área de Trabalho\\Projeto-ASP\\Sakura_Sushi\\wwwroot\\Images\\banner.webp",
+      "PackagePath": "staticwebassets\\Images\\banner.webp"
+    },
+    {
+      "Id": "C:\\Users\\luizh\\OneDrive\\Área de Trabalho\\Projeto-ASP\\Sakura_Sushi\\wwwroot\\Images\\banner1.jpg",
+      "PackagePath": "staticwebassets\\Images\\banner1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\luizh\\OneDrive\\Área de Trabalho\\Projeto-ASP\\Sakura_Sushi\\wwwroot\\Images\\banner2.jpg",
+      "PackagePath": "staticwebassets\\Images\\banner2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\luizh\\OneDrive\\Área de Trabalho\\Projeto-ASP\\Sakura_Sushi\\wwwroot\\Images\\banner3.jpg",
+      "PackagePath": "staticwebassets\\Images\\banner3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\luizh\\OneDrive\\Área de Trabalho\\Projeto-ASP\\Sakura_Sushi\\wwwroot\\Images\\cartas-1.webp",
+      "PackagePath": "staticwebassets\\Images\\cartas-1.webp"
+    },
+    {
+      "Id": "C:\\Users\\luizh\\OneDrive\\Área de Trabalho\\Projeto-ASP\\Sakura_Sushi\\wwwroot\\Images\\cartas-2.webp",
+      "PackagePath": "staticwebassets\\Images\\cartas-2.webp"
+    },
+    {
+      "Id": "C:\\Users\\luizh\\OneDrive\\Área de Trabalho\\Projeto-ASP\\Sakura_Sushi\\wwwroot\\Images\\cartas-3.webp",
+      "PackagePath": "staticwebassets\\Images\\cartas-3.webp"
+    },
+    {
+      "Id": "C:\\Users\\luizh\\OneDrive\\Área de Trabalho\\Projeto-ASP\\Sakura_Sushi\\wwwroot\\Images\\cartas-principal.webp",
+      "PackagePath": "staticwebassets\\Images\\cartas-principal.webp"
+    },
+    {
+      "Id": "C:\\Users\\luizh\\OneDrive\\Área de Trabalho\\Projeto-ASP\\Sakura_Sushi\\wwwroot\\Images\\gyoza.webp",
+      "PackagePath": "staticwebassets\\Images\\gyoza.webp"
+    },
+    {
+      "Id": "C:\\Users\\luizh\\OneDrive\\Área de Trabalho\\Projeto-ASP\\Sakura_Sushi\\wwwroot\\Images\\harumaki.webp",
+      "PackagePath": "staticwebassets\\Images\\harumaki.webp"
+    },
+    {
+      "Id": "C:\\Users\\luizh\\OneDrive\\Área de Trabalho\\Projeto-ASP\\Sakura_Sushi\\wwwroot\\Images\\hotroll.webp",
+      "PackagePath": "staticwebassets\\Images\\hotroll.webp"
+    },
+    {
+      "Id": "C:\\Users\\luizh\\OneDrive\\Área de Trabalho\\Projeto-ASP\\Sakura_Sushi\\wwwroot\\Images\\icon-apple.png",
+      "PackagePath": "staticwebassets\\Images\\icon-apple.png"
+    },
+    {
+      "Id": "C:\\Users\\luizh\\OneDrive\\Área de Trabalho\\Projeto-ASP\\Sakura_Sushi\\wwwroot\\Images\\icon-github.png",
+      "PackagePath": "staticwebassets\\Images\\icon-github.png"
+    },
+    {
+      "Id": "C:\\Users\\luizh\\OneDrive\\Área de Trabalho\\Projeto-ASP\\Sakura_Sushi\\wwwroot\\Images\\icon-instagram.png",
+      "PackagePath": "staticwebassets\\Images\\icon-instagram.png"
+    },
+    {
+      "Id": "C:\\Users\\luizh\\OneDrive\\Área de Trabalho\\Projeto-ASP\\Sakura_Sushi\\wwwroot\\Images\\icon-linkedin.png",
+      "PackagePath": "staticwebassets\\Images\\icon-linkedin.png"
+    },
+    {
+      "Id": "C:\\Users\\luizh\\OneDrive\\Área de Trabalho\\Projeto-ASP\\Sakura_Sushi\\wwwroot\\Images\\nigiri.webp",
+      "PackagePath": "staticwebassets\\Images\\nigiri.webp"
+    },
+    {
+      "Id": "C:\\Users\\luizh\\OneDrive\\Área de Trabalho\\Projeto-ASP\\Sakura_Sushi\\wwwroot\\Images\\ramen.webp",
+      "PackagePath": "staticwebassets\\Images\\ramen.webp"
+    },
+    {
+      "Id": "C:\\Users\\luizh\\OneDrive\\Área de Trabalho\\Projeto-ASP\\Sakura_Sushi\\wwwroot\\Images\\salmao.webp",
+      "PackagePath": "staticwebassets\\Images\\salmao.webp"
+    },
+    {
+      "Id": "C:\\Users\\luizh\\OneDrive\\Área de Trabalho\\Projeto-ASP\\Sakura_Sushi\\wwwroot\\Images\\shimeji.webp",
+      "PackagePath": "staticwebassets\\Images\\shimeji.webp"
+    },
+    {
+      "Id": "C:\\Users\\luizh\\OneDrive\\Área de Trabalho\\Projeto-ASP\\Sakura_Sushi\\wwwroot\\Images\\sushi.webp",
+      "PackagePath": "staticwebassets\\Images\\sushi.webp"
+    },
+    {
+      "Id": "C:\\Users\\luizh\\OneDrive\\Área de Trabalho\\Projeto-ASP\\Sakura_Sushi\\wwwroot\\Images\\tataki.webp",
+      "PackagePath": "staticwebassets\\Images\\tataki.webp"
+    },
+    {
+      "Id": "C:\\Users\\luizh\\OneDrive\\Área de Trabalho\\Projeto-ASP\\Sakura_Sushi\\wwwroot\\Images\\temaki.webp",
+      "PackagePath": "staticwebassets\\Images\\temaki.webp"
+    },
+    {
+      "Id": "C:\\Users\\luizh\\OneDrive\\Área de Trabalho\\Projeto-ASP\\Sakura_Sushi\\wwwroot\\Images\\teryaki.webp",
+      "PackagePath": "staticwebassets\\Images\\teryaki.webp"
+    },
+    {
+      "Id": "C:\\Users\\luizh\\OneDrive\\Área de Trabalho\\Projeto-ASP\\Sakura_Sushi\\wwwroot\\Images\\yakisoba.webp",
+      "PackagePath": "staticwebassets\\Images\\yakisoba.webp"
+    },
+    {
       "Id": "C:\\Users\\luizh\\OneDrive\\Área de Trabalho\\Projeto-ASP\\Sakura_Sushi\\wwwroot\\css\\Layout.css",
       "PackagePath": "staticwebassets\\css\\Layout.css"
     },

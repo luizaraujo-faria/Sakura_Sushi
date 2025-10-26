@@ -51,7 +51,6 @@ F:\2A-DS-PI\Luiz e Thiago\Projeto_DS_BD\Sakura_Sushi\Sakura_Sushi\obj\Debug\net8
 F:\2A-DS-PI\Luiz e Thiago\Projeto_DS_BD\Sakura_Sushi\Sakura_Sushi\obj\Debug\net8.0\Sakura_Sushi.pdb
 F:\2A-DS-PI\Luiz e Thiago\Projeto_DS_BD\Sakura_Sushi\Sakura_Sushi\obj\Debug\net8.0\Sakura_Sushi.genruntimeconfig.cache
 F:\2A-DS-PI\Luiz e Thiago\Projeto_DS_BD\Sakura_Sushi\Sakura_Sushi\obj\Debug\net8.0\ref\Sakura_Sushi.dll
-C:\Users\luizh\OneDrive\Área de Trabalho\Projeto-ASP\Sakura_Sushi\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\luizh\OneDrive\Área de Trabalho\Projeto-ASP\Sakura_Sushi\bin\Debug\net8.0\appsettings.json
 C:\Users\luizh\OneDrive\Área de Trabalho\Projeto-ASP\Sakura_Sushi\bin\Debug\net8.0\Sakura_Sushi.staticwebassets.runtime.json
 C:\Users\luizh\OneDrive\Área de Trabalho\Projeto-ASP\Sakura_Sushi\bin\Debug\net8.0\Sakura_Sushi.exe

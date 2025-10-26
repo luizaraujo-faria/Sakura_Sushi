@@ -1,14 +1,21 @@
 .carousel{
     width: 100%;
-    height: 80vh;
+    height: 85vh;
     background-color: #c7c7c7;
+    position: relative;
+    overflow: hidden;
 }
 .carousel-item{
     width: 100%;
-    height: 80vh;
+    height: 100%;
 }
-.carousel-button-icon{
-    color: #000;
+.button-icon{
+    width: 3rem;
+    height: 3rem;
+    color: #f0b112;
+}
+.carousel-indicators .indicators{
+    background-color: #f0b112;
 }
 .carousel-images{
     height: 90vh;

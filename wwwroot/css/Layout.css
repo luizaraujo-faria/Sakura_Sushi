@@ -13,11 +13,12 @@
   --black: #000000;
   --white: #ffffff;
   --primary-color: #daa520;
+  --softWhite: #e9e9e9;
 }
 
 .layoutHeader{
   width: 100%;
-  height: 4.5rem;
+  height: 4rem;
   position: relative;
   background-color: var(--black);
   box-shadow: 0px 3px 5px rgba(41, 41, 41, 0.322);
@@ -55,6 +56,7 @@
 
 .headerNavbar ul li a{
   font-size: 1.1rem;
+  font-weight: 300;
   color: var(--white);
   position: relative;
   text-decoration: none;
@@ -86,4 +88,5 @@
   width: 100%;
   height: 3.5rem;
   box-shadow: 0px -3px 5px rgba(41, 41, 41, 0.322);
+  background-color: #000;
 }

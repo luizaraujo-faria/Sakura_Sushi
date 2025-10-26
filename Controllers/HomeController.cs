@@ -24,18 +24,18 @@ namespace Sakura_Sushi.Controllers
         {
             return View();
 
-            string? connectionString = seitt.GetConnectionString("DefaultConnection");
-            using var connection = new MySqlConnection(connectionString);
-            connection.Open();
+            // string? connectionString = settings.GetConnectionString("DefaultConnection");
+            // using var connection = new MySqlConnection(connectionString);
+            // connection.Open();
 
-            string sql = "insert into tbCliente (Nome, Email, Senha, CPF, Telefone) values(@Nome, @Email, @Senha, @CPF, @Telefone);";
+            // string sql = "insert into tbCliente (Nome, Email, Senha, CPF, Telefone) values(@Nome, @Email, @Senha, @CPF, @Telefone);";
 
-            MySqlCommand command = new MySqlCommand(sql, connection);
-            command.Parameters.AddWithValue("@Nome", request.Nome);
-            command.Parameters.AddWithValue("@Nome", request.Email);
-            command.Parameters.AddWithValue("@Nome", request.Senha);
-            command.Parameters.AddWithValue("@Nome", request.CPF);
-            command.Parameters.AddWithValue("@Nome", request.Telefone);
+            // MySqlCommand command = new MySqlCommand(sql, connection);
+            // command.Parameters.AddWithValue("@Nome", request.Nome);
+            // command.Parameters.AddWithValue("@Nome", request.Email);
+            // command.Parameters.AddWithValue("@Nome", request.Senha);
+            // command.Parameters.AddWithValue("@Nome", request.CPF);
+            // command.Parameters.AddWithValue("@Nome", request.Telefone);
         }
 
 
