@@ -77,16 +77,22 @@
   width: 100%;
 }
 
-.container-full{
+.main-container{
+  width: 100%;
+  height: fit;
+  position: relative;
+}
+
+.section{
   width: 100%;
   height: 100vh;
   position: relative;
 }
 
 .layoutFooter{
-  position: relative;
   width: 100%;
   height: 3.5rem;
   box-shadow: 0px -3px 5px rgba(41, 41, 41, 0.322);
   background-color: #000;
+  position: relative;
 }

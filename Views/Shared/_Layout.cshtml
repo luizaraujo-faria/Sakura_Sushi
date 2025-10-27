@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/SakuraSushi.styles.css" asp-append-version="true" />
+    <link rel="shortcut icon" href="~/favicon.ico" type="image/x-icon">
     @RenderSection("Styles", required: false)
 </head>
 <body>
@@ -31,14 +32,13 @@
         </nav>
     </header>
 
-    <div class="container-full">
-        <main role="main" class=""">
+    <div class="main-container">
+        <main role="main" class="main">
             @RenderBody()
         </main>
     </div>
 
     <footer class="layoutFooter">
-
     </footer>
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

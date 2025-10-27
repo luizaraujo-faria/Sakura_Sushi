@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "o41A+2QrIQq4dqv17wWwdJfHrFkDm1zNPbeUfPScUH4=",
+  "Hash": "BVuB9dqA5VvVMsjcB6Isw8mijB1ScWY4op/7Z7NpeDI=",
   "Source": "Sakura_Sushi",
   "BasePath": "_content/Sakura_Sushi",
   "Mode": "Default",
@@ -623,6 +623,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\yakisoba.webp"
+    },
+    {
+      "Identity": "C:\\Users\\luizh\\OneDrive\\Área de Trabalho\\Projeto-ASP\\Sakura_Sushi\\wwwroot\\js\\signin.js",
+      "SourceId": "Sakura_Sushi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\luizh\\OneDrive\\Área de Trabalho\\Projeto-ASP\\Sakura_Sushi\\wwwroot\\",
+      "BasePath": "_content/Sakura_Sushi",
+      "RelativePath": "js/signin.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\signin.js"
     },
     {
       "Identity": "C:\\Users\\luizh\\OneDrive\\Área de Trabalho\\Projeto-ASP\\Sakura_Sushi\\wwwroot\\js\\site.js",

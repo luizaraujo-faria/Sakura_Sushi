@@ -129,6 +129,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\luizh\\OneDrive\\Área de Trabalho\\Projeto-ASP\\Sakura_Sushi\\wwwroot\\js\\signin.js",
+      "PackagePath": "staticwebassets\\js\\signin.js"
+    },
+    {
       "Id": "C:\\Users\\luizh\\OneDrive\\Área de Trabalho\\Projeto-ASP\\Sakura_Sushi\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
