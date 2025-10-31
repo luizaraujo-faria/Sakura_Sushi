@@ -1,4 +1,4 @@
-@model Sakura_Sushi.Models.Cliente
+@model Sakura_Sushi.Models.Cliente;
 
 @{
     ViewData["Title"] = "Login";
@@ -9,7 +9,7 @@
     <div class="form-container">
 
         <!-- Form Cadastro -->
-        @using (Html.BeginForm("Cadatrar", "Clientes", FormMethod.Post, new { @class="form-cadastro form-active" }))
+        @using (Html.BeginForm("Cadastrar", "Home", FormMethod.Post, new { @class="form-cadastro form-active" }))
         {
 
             <div class="form-texts">

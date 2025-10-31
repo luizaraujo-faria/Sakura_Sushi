@@ -115,7 +115,6 @@ C:\Users\2ds\Desktop\Sakura_Sushi\obj\Debug\net8.0\Sakura_Sushi.sourcelink.json
 C:\Users\2ds\Desktop\Sakura_Sushi\obj\Debug\net8.0\Sakura_Sushi.dll
 C:\Users\2ds\Desktop\Sakura_Sushi\obj\Debug\net8.0\refint\Sakura_Sushi.dll
 C:\Users\2ds\Desktop\Sakura_Sushi\obj\Debug\net8.0\Sakura_Sushi.pdb
-C:\Users\2ds\Desktop\Sakura_Sushi\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\2ds\Desktop\Sakura_Sushi\bin\Debug\net8.0\appsettings.json
 C:\Users\2ds\Desktop\Sakura_Sushi\bin\Debug\net8.0\Sakura_Sushi.staticwebassets.runtime.json
 C:\Users\2ds\Desktop\Sakura_Sushi\bin\Debug\net8.0\Sakura_Sushi.staticwebassets.endpoints.json
