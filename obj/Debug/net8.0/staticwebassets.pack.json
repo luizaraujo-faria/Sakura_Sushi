@@ -65,12 +65,32 @@
       "PackagePath": "staticwebassets\\Images\\icon-github.png"
     },
     {
+      "Id": "C:\\Users\\luizh\\OneDrive\\Área de Trabalho\\Projeto-ASP\\Sakura_Sushi\\wwwroot\\Images\\icon-instagram-branco.png",
+      "PackagePath": "staticwebassets\\Images\\icon-instagram-branco.png"
+    },
+    {
       "Id": "C:\\Users\\luizh\\OneDrive\\Área de Trabalho\\Projeto-ASP\\Sakura_Sushi\\wwwroot\\Images\\icon-instagram.png",
       "PackagePath": "staticwebassets\\Images\\icon-instagram.png"
     },
     {
       "Id": "C:\\Users\\luizh\\OneDrive\\Área de Trabalho\\Projeto-ASP\\Sakura_Sushi\\wwwroot\\Images\\icon-linkedin.png",
       "PackagePath": "staticwebassets\\Images\\icon-linkedin.png"
+    },
+    {
+      "Id": "C:\\Users\\luizh\\OneDrive\\Área de Trabalho\\Projeto-ASP\\Sakura_Sushi\\wwwroot\\Images\\icon-whatsapp-branco.png",
+      "PackagePath": "staticwebassets\\Images\\icon-whatsapp-branco.png"
+    },
+    {
+      "Id": "C:\\Users\\luizh\\OneDrive\\Área de Trabalho\\Projeto-ASP\\Sakura_Sushi\\wwwroot\\Images\\icon-whatsapp.png",
+      "PackagePath": "staticwebassets\\Images\\icon-whatsapp.png"
+    },
+    {
+      "Id": "C:\\Users\\luizh\\OneDrive\\Área de Trabalho\\Projeto-ASP\\Sakura_Sushi\\wwwroot\\Images\\icon-x-branco.png",
+      "PackagePath": "staticwebassets\\Images\\icon-x-branco.png"
+    },
+    {
+      "Id": "C:\\Users\\luizh\\OneDrive\\Área de Trabalho\\Projeto-ASP\\Sakura_Sushi\\wwwroot\\Images\\icon-yt-branco.png",
+      "PackagePath": "staticwebassets\\Images\\icon-yt-branco.png"
     },
     {
       "Id": "C:\\Users\\luizh\\OneDrive\\Área de Trabalho\\Projeto-ASP\\Sakura_Sushi\\wwwroot\\Images\\nigiri.webp",
