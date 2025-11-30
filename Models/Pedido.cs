@@ -7,12 +7,10 @@ namespace Sakura_Sushi.Models
         int idPedido { get; set; }
         DateOnly data { get; set;}
         
+        // enum StatusPedido
+        // {
+        //     Pendente = "Pendente",
 
-
-        enum StatusPedido
-        {
-            Pendente = "Pendente",
-
-        }
+        // }
     }
 }
