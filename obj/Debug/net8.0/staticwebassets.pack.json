@@ -137,6 +137,14 @@
       "PackagePath": "staticwebassets\\css\\home.css"
     },
     {
+      "Id": "C:\\Users\\luizh\\OneDrive\\Área de Trabalho\\Projeto-ASP\\Sakura_Sushi\\wwwroot\\css\\menu.css",
+      "PackagePath": "staticwebassets\\css\\menu.css"
+    },
+    {
+      "Id": "C:\\Users\\luizh\\OneDrive\\Área de Trabalho\\Projeto-ASP\\Sakura_Sushi\\wwwroot\\css\\perfil.css",
+      "PackagePath": "staticwebassets\\css\\perfil.css"
+    },
+    {
       "Id": "C:\\Users\\luizh\\OneDrive\\Área de Trabalho\\Projeto-ASP\\Sakura_Sushi\\wwwroot\\css\\signin.css",
       "PackagePath": "staticwebassets\\css\\signin.css"
     },

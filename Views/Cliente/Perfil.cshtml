@@ -1,0 +1,54 @@
+@{
+    ViewData[index: "Title"] = "Perfil";
+
+}
+
+<section class="section person-section">
+
+    <div class="person-intro">
+        <article>
+            <h3>Bem-Vindo, "Nome do usuário"</h3>
+
+            <p>
+                Que bom te ver de volta, confira e edite seus dados pessoais.
+            </p>
+
+            <div class="edit-button">
+                <button type="text">Editar Perfil</button>
+            </div>
+        </article>
+    </div>
+
+    <form action="" class="person-data">
+        
+        <div class="data-field">
+            <label for="">Nome</label>
+            <input type="text" disabled>
+        </div>
+
+        <div class="data-field">
+            <label for="">Email</label>
+            <input type="text" disabled>
+        </div>
+
+        <div class="data-field">
+            <label for="">Senha</label>
+            <input type="text" disabled>
+        </div>
+
+        <div class="data-field">
+            <label for="">CPF</label>
+            <input type="text" disabled>
+        </div>
+
+        <div class="data-field">
+            <label for="">Telefone</label>
+            <input type="text" disabled>
+        </div>
+    </form>
+</section>
+
+@section styles{
+    <link rel="stylesheet" href="~/css/perfil.css" />
+    <link rel="stylesheet" href="~/css/Layout.css">
+}

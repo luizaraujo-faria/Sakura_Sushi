@@ -8,12 +8,12 @@ namespace Sakura_Sushi.Controllers
 {
     public class MenuController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly ILogger<MenuController> _logger;
         private readonly IConfiguration _configuration;
 
         public MenuController(ILogger<MenuController> logger, IConfiguration configuration)
         {
-            // _logger = logger;
+            _logger = logger;
             _configuration = configuration;
         }
 
