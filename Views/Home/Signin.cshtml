@@ -5,11 +5,25 @@
 
 }
 
+@if (TempData["Success"] != null)
+{
+    <div class="popup success-popup">
+        @TempData["Success"]
+    </div>
+}
+
+@if (TempData["Error"] != null)
+{
+    <div class="popup error-popup">
+        @TempData["Error"]
+    </div>
+}
+
 <section class="sigin-container">
     <div class="form-container">
 
         <!-- Form Cadastro -->
-        @using (Html.BeginForm("Cadastrar", "Home", FormMethod.Post, new { @class="form-cadastro form-active" }))
+        @using (Html.BeginForm(actionName: "Cadastrar", "Home", FormMethod.Post, new { @class="form-cadastro form-active" }))
         {
 
             <div class="form-texts">
@@ -48,7 +62,7 @@
         }
 
         <!-- Form Login -->
-        @using (Html.BeginForm("Entrar", "Clientes", FormMethod.Post, new { @class="form-login form-inactive" }))
+        @using (Html.BeginForm("Login", "Home", FormMethod.Post, new { @class="form-login form-inactive" }))
             {
 
                 <div class="form-texts">
@@ -76,6 +90,13 @@
 
     <div class="banner-container"></div>
 </section>
+
+<script>
+    setTimeout(() => {
+        const popup = document.querySelector('.popup');
+        if (popup) popup.style.display = 'none';
+    }, 3000);
+</script>
 
 @section Styles{
     <link rel="stylesheet" href="~/css/signin.css" />

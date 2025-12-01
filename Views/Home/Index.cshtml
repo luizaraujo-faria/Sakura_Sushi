@@ -3,16 +3,31 @@
    
 }
 
+@if(TempData["Success"] != null){
+    <div class="alert alert-success">
+        @TempData["Success"]
+    </div>
+}
+@if(TempData["Error"] != null){
+    <div class="alert alert-error">
+        @TempData["Error"]
+    </div>
+}
+
 <section class="carousel">
     <partial name="_Carousel" />
 </section>
+
 <section class="section intro-section">
 
     <div class="intro-content">
         <article>
             <h2>Experimente</h2>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, minus officia suscipit accusamus omnis amet odit consectetur nam debitis perferendis nobis. Sit nam accusamus repudiandae odio velit quia maiores. Eveniet?</p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, minus officia suscipit accusamus omnis amet odit consectetur nam debitis perferendis nobis. Sit nam accusamus repudiandae odio velit quia maiores. Eveniet?
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere atque tempore delectus officiis amet consectetur illo, incidunt hic! Ut fuga suscipit veniam necessitatibus ex ad consectetur, explicabo delectus repellat fugiat.
+            </p>
         </article>
 
         <button>
@@ -26,6 +41,31 @@
         <img src="~/Images/cartas-2.webp" class="cartaz-image" alt="Cartaz-2">
         <img src="~/Images/cartas-3.webp" class="cartaz-image" alt="Cartaz-3">
     </div>
+</section>
+
+<section class="section hours-section">
+
+    <article class="hour-sheet">
+        <div class="sheet-column">
+            <h2 class="hour-title">Dias</h2>
+            <div style="display: flex; align-items: center; justify-content: center; flex-direction: column;">
+                <p>Segunda à Sexta-Feira</p>
+                <p>Sábado e Domingo</p>
+                <p>Feriados</p>
+            </div>
+        </div>
+
+        <div class="divisor-bar"></div>
+
+        <div class="sheet-column">
+            <h2 class="hour-title">Horários</h2>
+            <div style="display: flex; align-items: center; justify-content: center; flex-direction: column;">
+                <p>09:00 - 18:00</p>
+                <p>11:30 - 18:00</p>
+                <p>Não Funcionamos</p>
+            </div>
+        </div>
+    </article>
 </section>
 
 @section styles{
