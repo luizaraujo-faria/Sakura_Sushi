@@ -3,50 +3,91 @@
 
 }
 
+@using Sakura_Sushi.Dto
+@model ClienteDTO;
+
 <section class="section person-section">
 
     <div class="person-intro">
         <article>
-            <h3>Bem-Vindo, "Nome do usuário"</h3>
+            <h3>Bem-Vindo, @Model.Nome</h3>
 
             <p>
                 Que bom te ver de volta, confira e edite seus dados pessoais.
             </p>
 
             <div class="edit-button">
-                <button type="text">Editar Perfil</button>
+                <button id="editBtn" type="button">Editar Perfil</button>
+                <button id="cancelBtn" type="button" style="display:none; background:#666;">Cancelar</button>
             </div>
         </article>
     </div>
 
-    <form action="" class="person-data">
-        
+    <form method="post" asp-controller="Cliente" asp-action="Editar" class="person-data">
+
         <div class="data-field">
-            <label for="">Nome</label>
-            <input type="text" disabled>
+            <label>Nome</label>
+            <input id="nome" name="Nome" type="text" value="@Model.Nome" disabled>
         </div>
 
         <div class="data-field">
-            <label for="">Email</label>
-            <input type="text" disabled>
+            <label>Email</label>
+            <input id="email" name="Email" type="text" value="@Model.Email" disabled>
         </div>
 
         <div class="data-field">
-            <label for="">Senha</label>
-            <input type="text" disabled>
+            <label>Senha</label>
+            <input id="senha" name="Senha" type="text" value="@Model.Senha" disabled>
         </div>
 
         <div class="data-field">
-            <label for="">CPF</label>
-            <input type="text" disabled>
+            <label>CPF</label>
+            <input id="cpf" name="CPF" type="text" value="@Model.CPF" disabled>
         </div>
 
         <div class="data-field">
-            <label for="">Telefone</label>
-            <input type="text" disabled>
+            <label>Telefone</label>
+            <input id="telefone" name="Telefone" type="text" value="@Model.Telefone" disabled>
         </div>
+
+        <div class="data-field">
+            <button id="saveBtn" type="submit" style="display:none;">Atualizar</button>
+        </div>
+
     </form>
 </section>
+
+@section Scripts {
+<script>
+    const editBtn = document.getElementById("editBtn");
+    const cancelBtn = document.getElementById("cancelBtn");
+    const saveBtn = document.getElementById("saveBtn");
+    const inputs = document.querySelectorAll(".person-data input");
+
+    // Salva valores originais para restaurar quando cancelar
+    const originalValues = {};
+    inputs.forEach(inp => originalValues[inp.id] = inp.value);
+
+    editBtn.addEventListener("click", () => {
+        inputs.forEach(inp => inp.disabled = false);
+
+        editBtn.style.display = "none";
+        saveBtn.style.display = "inline-block";
+        cancelBtn.style.display = "inline-block";
+    });
+
+    cancelBtn.addEventListener("click", () => {
+        inputs.forEach(inp => {
+            inp.disabled = true;
+            inp.value = originalValues[inp.id];
+        });
+
+        saveBtn.style.display = "none";
+        cancelBtn.style.display = "none";
+        editBtn.style.display = "inline-block";
+    });
+</script>
+}
 
 @section styles{
     <link rel="stylesheet" href="~/css/perfil.css" />

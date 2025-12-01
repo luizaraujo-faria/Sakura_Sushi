@@ -2,11 +2,11 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Sakura_Sushi.Dto
 {
-    public class CreateClienteDTO
+    public class ClienteDTO
     {
         
         [Display(Name = "Seu nome")]
-        [StringLength(150, MinimumLength = 2)]
+        [StringLength(150, MinimumLength = 2, ErrorMessage = "Nome deve conter entre 2 e 150 caractéres!")]
         [Required(ErrorMessage = "Nome é obrigatório!", AllowEmptyStrings = false)]
         public string? Nome { get; set; }
         
@@ -22,12 +22,12 @@ namespace Sakura_Sushi.Dto
         public string? Senha { get; set; }
 
         [Display(Name = "Seu CPF")]
-        [StringLength(13)]
+        [StringLength(13, ErrorMessage = "CPF deve conter no máximo 13 caractéres!")]
         [Required(ErrorMessage = "CPF é obrigatório!", AllowEmptyStrings = false)]
         public string? CPF { get; set; }
 
         [Display(Name = "Número de telefone")]
-        [StringLength(13, MinimumLength = 10)]
+        [StringLength(13, MinimumLength = 10, ErrorMessage = "Telefone deve conter no máximo 13 caractéres!")]
         [Required(ErrorMessage = "Telefone é obrigatório!", AllowEmptyStrings = false)]
         public string? Telefone { get; set; }
     }

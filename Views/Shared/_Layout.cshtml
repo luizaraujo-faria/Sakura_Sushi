@@ -34,6 +34,24 @@
 
     <div class="main-container">
         <main role="main" class="main">
+            @{
+                ViewData["Title"] = "Login";
+
+            }
+
+            @if (TempData["Success"] != null)
+            {
+                <div class="popup success-popup">
+                    @TempData["Success"]
+                </div>
+            }
+
+            @if (TempData["Error"] != null)
+            {
+                <div class="popup error-popup">
+                    @TempData["Error"]
+                </div>
+            }
             @RenderBody()
         </main>
     </div>
@@ -92,6 +110,13 @@
         </section>
 
     </footer>
+
+    <script>
+        setTimeout(() => {
+            const popup = document.querySelector('.popup');
+            if (popup) popup.style.display = 'none';
+        }, 3000);
+    </script>
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
