@@ -2,6 +2,8 @@ const toggleForm = document.querySelector('.toggle-button');
 const loginForm = document.querySelector('.form-login');
 const cadastroForm = document.querySelector('.form-cadastro');
 
+localStorage.setItem('isFormActive', 'cadastro');
+
 const showLoginForm = () => {
 
     cadastroForm.classList.remove('form-active');

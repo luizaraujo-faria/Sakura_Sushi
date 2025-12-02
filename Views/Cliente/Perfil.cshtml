@@ -8,53 +8,61 @@
 
 <section class="section person-section">
 
-    <div class="person-intro">
-        <article>
-            <h3>Bem-Vindo, @Model.Nome</h3>
+    <div class="user-panel">
+        <div class="person-intro">
+            <article>
+                <h3>Bem-Vindo, @Model.Nome</h3>
 
-            <p>
-                Que bom te ver de volta, confira e edite seus dados pessoais.
-            </p>
+                <p style="text-align: justify;">
+                    É um prazer ter você de volta! Aqui você pode acompanhar todas as suas informações pessoais,
+                    garantir que seus dados estejam atualizados e deixar seu perfil sempre do jeito que você precisa. 
+                </p>
 
-            <div class="edit-button">
-                <button id="editBtn" type="button">Editar Perfil</button>
-                <button id="cancelBtn" type="button" style="display:none; background:#666;">Cancelar</button>
+                <div class="edit-button">
+                    <button id="editBtn" type="button">Editar Perfil</button>
+                    <button id="cancelBtn" type="button" style="display:none; background:#666;">Cancelar</button>
+                </div>
+            </article>
+        </div>
+
+        <form method="post" asp-controller="Cliente" asp-action="Editar" class="person-data">
+
+            <div class="data-field">
+                <label>Nome</label>
+                <input id="nome" name="Nome" type="text" value="@Model.Nome" disabled>
             </div>
-        </article>
+
+            <div class="data-field">
+                <label>Email</label>
+                <input id="email" name="Email" type="text" value="@Model.Email" disabled>
+            </div>
+
+            <div class="data-field">
+                <label>Senha</label>
+                <input id="senha" name="Senha" type="text" value="@Model.Senha" disabled>
+            </div>
+
+            <div class="data-field">
+                <label>CPF</label>
+                <input id="cpf" name="CPF" type="text" value="@Model.CPF" disabled>
+            </div>
+
+            <div class="data-field">
+                <label>Telefone</label>
+                <input id="telefone" name="Telefone" type="text" value="@Model.Telefone" disabled>
+            </div>
+
+            <div class="data-field">
+                <button id="saveBtn" type="submit" style="display:none;">Atualizar</button>
+            </div>
+
+        </form>
     </div>
 
-    <form method="post" asp-controller="Cliente" asp-action="Editar" class="person-data">
+    <div class="banner">
+        <img src="~/Images/banner.webp" alt="Profile-Banner">
+    </div>
 
-        <div class="data-field">
-            <label>Nome</label>
-            <input id="nome" name="Nome" type="text" value="@Model.Nome" disabled>
-        </div>
-
-        <div class="data-field">
-            <label>Email</label>
-            <input id="email" name="Email" type="text" value="@Model.Email" disabled>
-        </div>
-
-        <div class="data-field">
-            <label>Senha</label>
-            <input id="senha" name="Senha" type="text" value="@Model.Senha" disabled>
-        </div>
-
-        <div class="data-field">
-            <label>CPF</label>
-            <input id="cpf" name="CPF" type="text" value="@Model.CPF" disabled>
-        </div>
-
-        <div class="data-field">
-            <label>Telefone</label>
-            <input id="telefone" name="Telefone" type="text" value="@Model.Telefone" disabled>
-        </div>
-
-        <div class="data-field">
-            <button id="saveBtn" type="submit" style="display:none;">Atualizar</button>
-        </div>
-
-    </form>
 </section>
 
 @section Scripts {
