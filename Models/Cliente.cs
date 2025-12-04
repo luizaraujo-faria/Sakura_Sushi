@@ -4,7 +4,6 @@ namespace Sakura_Sushi.Models
 {
     public class Cliente
     {
-
         public int ID_Cliente { get; }
         
         [Display(Name = "Seu nome")]
